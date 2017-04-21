@@ -21,3 +21,6 @@ Style/TrailingWhitespace:
 
 Style/SpaceAfterComma:
   Enabled: true
+
+Style/ExtraSpacing:
+  Enabled: true

@@ -9,24 +9,24 @@ gem 'rake'
 gem 'parallel_tests'
 
 # Debugging
-gem 'pry'                                   # Easily debug from your console with `binding.pry`
+gem 'pry' # Easily debug from your console with `binding.pry`
 
 # Code style
 gem 'rubocop'
 
 group :development do
   # Debugging
-  gem 'better_errors'                       # Web UI to debug exceptions. Go to /__better_errors to access the latest one
+  gem 'better_errors' # Web UI to debug exceptions. Go to /__better_errors to access the latest one
 
-  gem 'binding_of_caller', platforms: :mri  # Retrieve the binding of a method's caller
+  gem 'binding_of_caller', platforms: :mri # Retrieve the binding of a method's caller
 
   # Performance
-  gem 'rack-mini-profiler'                  # Inline app profiler. See ?pp=help for options.
+  gem 'rack-mini-profiler' # Inline app profiler. See ?pp=help for options.
 
   # Documentation
-  gem 'yard'                                # Documentation generator
-  gem 'redcarpet', platforms: :mri          # Markdown implementation (for yard)
-  gem 'kramdown', platforms: :jruby         # Markdown implementation (for yard)
+  gem 'yard'                        # Documentation generator
+  gem 'redcarpet', platforms: :mri  # Markdown implementation (for yard)
+  gem 'kramdown', platforms: :jruby # Markdown implementation (for yard)
   gem 'appraisal', require: false
 end
 
